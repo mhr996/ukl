@@ -1,0 +1,96 @@
+[
+  {
+    "id": 1,
+    "name": "Home",
+    "path": "/"
+  },
+  {
+    "id": 2,
+    "name": "About us",
+    "path": "/about"
+  },
+  {
+    "id": 3,
+    "name": "Services",
+    "path": "/services",
+    "submenu": [
+      {
+        "id": 1,
+        "name": "Core Services",
+        "path": "#",
+        "items": [
+          {
+            "id": 1,
+            "name": "Sponsorship & Government Relations",
+            "icon": "tji-service-1",
+            "path": "/services/1"
+          },
+          {
+            "id": 2,
+            "name": "Housing & Accommodation",
+            "icon": "tji-service-2",
+            "path": "/services/2"
+          },
+          {
+            "id": 3,
+            "name": "Vehicles & Fleet Management",
+            "icon": "tji-service-3",
+            "path": "/services/3"
+          },
+          {
+            "id": 4,
+            "name": "Transportation Services",
+            "icon": "tji-service-4",
+            "path": "/services/4"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Specialized Services",
+        "path": "#",
+        "items": [
+          {
+            "id": 5,
+            "name": "Emergency Support Services",
+            "icon": "tji-service-5",
+            "path": "/services/5"
+          },
+          {
+            "id": 6,
+            "name": "Catering Services",
+            "icon": "tji-service-6",
+            "path": "/services/6"
+          },
+          {
+            "id": 7,
+            "name": "Event Planning & Protocol",
+            "icon": "tji-service-1",
+            "path": "/services/7"
+          },
+          {
+            "id": 8,
+            "name": "General Contracting & Fit-Out",
+            "icon": "tji-service-2",
+            "path": "/services/8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Our Team",
+    "path": "/team"
+  },
+  {
+    "id": 5,
+    "name": "Contact",
+    "path": "/contact"
+  },
+  {
+    "id": 6,
+    "name": "FAQ",
+    "path": "/faq"
+  }
+]
