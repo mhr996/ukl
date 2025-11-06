@@ -42,7 +42,7 @@ const Footer = () => {
                     <Link href="/services/1">Sponsorship & GR</Link>
                   </li>
                   <li>
-                    <Link href="/services/2">Housing</Link>
+                    <Link href="/services/2">Housing Solutions</Link>
                   </li>
                   <li>
                     <Link href="/services/3">Fleet Management</Link>
@@ -51,7 +51,7 @@ const Footer = () => {
                     <Link href="/services/4">Transportation</Link>
                   </li>
                   <li>
-                    <Link href="/services/5">24/7 Emergency Response</Link>
+                    <Link href="/services/5">Emergency Support</Link>
                   </li>
                   <li>
                     <Link href="/services/6">Catering Services</Link>
@@ -76,15 +76,13 @@ const Footer = () => {
                     <Link href="/about">About UKL</Link>
                   </li>
                   <li>
-                    <Link href="/careers">
-                      Careers <span className="badge">New</span>
-                    </Link>
-                  </li>
-                  <li>
                     <Link href="/faq">FAQ</Link>
                   </li>
                   <li>
                     <Link href="/services">Services</Link>
+                  </li>
+                  <li>
+                    <Link href="/terms-and-conditions">Terms & Conditions</Link>
                   </li>
                 </ul>
               </div>
@@ -107,7 +105,10 @@ const Footer = () => {
                     </button>
                     <label htmlFor="agree">
                       <input id="agree" type="checkbox" />
-                      Agree to our <Link href="#">Terms & Condition?</Link>
+                      Agree to our{" "}
+                      <Link href="/terms-and-conditions">
+                        Terms & Condition?
+                      </Link>
                     </label>
                   </form>
                 </div>

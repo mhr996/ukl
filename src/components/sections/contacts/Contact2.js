@@ -73,36 +73,33 @@ const Contact2 = () => {
                           <ReactNiceSelect
                             selectedIndex={0}
                             options={[
-                              { value: "0", optionName: "Select a service" },
+                              {
+                                value: "0",
+                                optionName: "How can we help you?",
+                              },
                               {
                                 value: "1",
-                                optionName:
-                                  "Sponsorship & Government Relations",
+                                optionName: "General Inquiry",
                               },
                               {
                                 value: "2",
-                                optionName: "Housing & Accommodation",
+                                optionName: "Request a Quote",
                               },
                               {
                                 value: "3",
-                                optionName: "Vehicles & Fleet Management",
+                                optionName: "Service Information",
                               },
                               {
                                 value: "4",
-                                optionName: "Transportation Services",
+                                optionName: "Partnership Opportunities",
                               },
                               {
                                 value: "5",
-                                optionName: "Emergency Support Services",
-                              },
-                              { value: "6", optionName: "Catering Services" },
-                              {
-                                value: "7",
-                                optionName: "Event Planning & Protocol",
+                                optionName: "Support & Assistance",
                               },
                               {
-                                value: "8",
-                                optionName: "General Contracting & Fit-Out",
+                                value: "6",
+                                optionName: "Other",
                               },
                             ]}
                             getSelectedOption={handleSelect}
