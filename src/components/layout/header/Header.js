@@ -3,11 +3,13 @@ import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import useIsSticky from "@/hooks/useIsSticky";
 import Link from "next/link";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import ContactMenu from "./ContactMenu";
 import HeaderTop from "./HeaderTop";
 import Logo from "./Logo";
 import MobileMenu from "./MobileMenu";
 import Navbar from "./Navbar";
+import { searchPages } from "@/libs/searchContent";
 
 const Header = ({
   headerType = 1,
@@ -18,7 +20,49 @@ const Header = ({
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const [isContactOpen, setIsContactOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [searchResults, setSearchResults] = useState([]);
+  const router = useRouter();
   const isSticky = useIsSticky(isStickyHeader);
+
+  const handleSearchChange = (e) => {
+    const query = e.target.value;
+    setSearchQuery(query);
+
+    if (query.trim().length >= 3) {
+      const results = searchPages(query);
+      setSearchResults(results);
+    } else {
+      setSearchResults([]);
+    }
+  };
+
+  const handleSearchSubmit = (e) => {
+    e.preventDefault();
+    if (searchResults.length > 0) {
+      const topResult = searchResults[0];
+      if (topResult.url.startsWith("mailto:")) {
+        window.location.href = topResult.url;
+      } else {
+        router.push(topResult.url);
+        setIsSearchOpen(false);
+        setSearchQuery("");
+        setSearchResults([]);
+      }
+    }
+  };
+
+  const handleResultClick = (url) => {
+    if (url.startsWith("mailto:")) {
+      window.location.href = url;
+    } else {
+      router.push(url);
+    }
+    setIsSearchOpen(false);
+    setSearchQuery("");
+    setSearchResults([]);
+  };
+
   const handleContactTogglerClick = () => {
     setIsContactOpen(true);
   };
@@ -163,19 +207,55 @@ const Header = ({
               <div className="col-8">
                 <div className="tj_search_wrapper">
                   <div className="search_form">
-                    <form action="#">
+                    <form onSubmit={handleSearchSubmit}>
                       <div className="search_input">
                         <div className="search-box">
                           <input
                             className="search-form-input"
                             type="text"
-                            placeholder="Type Words and Hit Enter"
-                            required
+                            placeholder="Search pages, services, or content..."
+                            value={searchQuery}
+                            onChange={handleSearchChange}
+                            autoFocus
                           />
                           <button type="submit">
                             <i className="tji-search"></i>
                           </button>
                         </div>
+
+                        {/* Search Results */}
+                        {searchResults.length > 0 && (
+                          <div className="search-results">
+                            {searchResults.slice(0, 8).map((result, index) => (
+                              <div
+                                key={index}
+                                className="search-result-item"
+                                onClick={() => handleResultClick(result.url)}
+                              >
+                                <h6 className="result-title">{result.title}</h6>
+                                <p className="result-snippet">
+                                  {result.matchedText}
+                                </p>
+                              </div>
+                            ))}
+                          </div>
+                        )}
+
+                        {searchQuery &&
+                          searchQuery.trim().length >= 3 &&
+                          searchResults.length === 0 && (
+                            <div className="search-no-results">
+                              <p>No results found for "{searchQuery}"</p>
+                            </div>
+                          )}
+
+                        {searchQuery &&
+                          searchQuery.trim().length > 0 &&
+                          searchQuery.trim().length < 3 && (
+                            <div className="search-no-results">
+                              <p>Type at least 3 characters to search</p>
+                            </div>
+                          )}
                       </div>
                     </form>
                   </div>

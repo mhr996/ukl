@@ -2,6 +2,110 @@
 @import url("./assets/css/main.css");
 @import url("./assets/css/shop.css");
 
+/* Search Results Styles */
+.search-results {
+  margin-top: 30px;
+  max-height: 500px;
+  overflow-y: auto;
+  background: var(--tj-color-common-white);
+  border-radius: 10px;
+  padding: 20px;
+  animation: fadeInDown 0.3s ease-out;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.search-result-item {
+  padding: 15px;
+  border-bottom: 1px solid var(--tj-color-grey-1);
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  animation: fadeIn 0.3s ease-out backwards;
+}
+
+.search-result-item:nth-child(1) {
+  animation-delay: 0.05s;
+}
+.search-result-item:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.search-result-item:nth-child(3) {
+  animation-delay: 0.15s;
+}
+.search-result-item:nth-child(4) {
+  animation-delay: 0.2s;
+}
+.search-result-item:nth-child(5) {
+  animation-delay: 0.25s;
+}
+.search-result-item:nth-child(6) {
+  animation-delay: 0.3s;
+}
+.search-result-item:nth-child(7) {
+  animation-delay: 0.35s;
+}
+.search-result-item:nth-child(8) {
+  animation-delay: 0.4s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.search-result-item:last-child {
+  border-bottom: none;
+}
+
+.search-result-item:hover {
+  background: var(--tj-color-grey-1);
+  transform: translateX(5px);
+}
+
+.search-result-item .result-title {
+  font-size: 18px;
+  font-weight: var(--tj-fw-sbold);
+  color: var(--tj-color-theme-primary);
+  margin-bottom: 8px;
+}
+
+.search-result-item .result-snippet {
+  font-size: 14px;
+  color: var(--tj-color-text-body);
+  margin: 0;
+  line-height: 1.6;
+}
+
+.search-no-results {
+  margin-top: 30px;
+  text-align: center;
+  padding: 40px 20px;
+  background: var(--tj-color-grey-1);
+  border-radius: 10px;
+  animation: fadeInDown 0.3s ease-out;
+}
+
+.search-no-results p {
+  color: var(--tj-color-text-body);
+  font-size: 16px;
+  margin: 0;
+}
+
 /* Logo Sizes */
 .site_logo .logo {
   max-width: 110px !important;
