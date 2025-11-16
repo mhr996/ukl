@@ -26,7 +26,7 @@ const Portfolios1 = () => {
 									needs and craft tailored solutions that address challenges.
 								</p>
 								<div className="btn-wrap wow fadeInUp" data-wow-delay=".6s">
-									<ButtonPrimary text={"More Projects"} url="/portfolios" />
+									<ButtonPrimary text={"More Information"} url="/portfolios" />
 								</div>
 							</div>
 						</div>
