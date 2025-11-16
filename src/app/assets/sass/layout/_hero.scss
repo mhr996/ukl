@@ -73,7 +73,7 @@ START: Hero CSS
 		margin-bottom: 20px;
 		border-radius: 4px;
 		i {
-			color: var(--tj-color-theme-primary);
+			color: #fc8100;
 			font-size: 22px;
 		}
 	}
@@ -83,7 +83,7 @@ START: Hero CSS
 		margin-bottom: 15px;
 		span {
 			display: inline-block;
-			color: var(--tj-color-theme-primary);
+			color: #fc8100;
 			font-weight: var(--tj-fw-medium);
 		}
 		@media #{$xxl} {

@@ -40,7 +40,7 @@
   --tj-color-text-body-3: #67787a;
   --tj-color-text-body-4: #18292c;
   --tj-color-text-body-5: rgba(255, 255, 255, 0.8);
-  --tj-color-theme-primary: #1e8a8a;
+  --tj-color-theme-primary: #032d44;
   --tj-color-theme-bg: #d8e5e5;
   --tj-color-theme-bg-2: #cee0e0;
   --tj-color-theme-bg-3: #202e30;
@@ -8387,7 +8387,7 @@ START: Heading CSS
   margin-bottom: 0;
 }
 .sec-heading .sec-title span {
-  color: var(--tj-color-theme-primary);
+  color: #fc8100;
 }
 .sec-heading .sub-title {
   display: -webkit-inline-box;
@@ -8409,7 +8409,7 @@ START: Heading CSS
   border-radius: 4px;
 }
 .sec-heading .sub-title i {
-  color: var(--tj-color-theme-primary);
+  color: #fc8100;
   font-size: 22px;
   line-height: 1;
   display: -webkit-inline-box;
@@ -8546,7 +8546,7 @@ START: Heading CSS
   border-radius: 4px;
 }
 .sec-heading-wrap .sub-title i {
-  color: var(--tj-color-theme-primary);
+  color: #fc8100;
   font-size: 22px;
   line-height: 1;
   display: -webkit-inline-box;
@@ -8742,7 +8742,7 @@ START: Hero CSS
   border-radius: 4px;
 }
 .banner-content .sub-title i {
-  color: var(--tj-color-theme-primary);
+  color: #fc8100;
   font-size: 22px;
 }
 .banner-content .banner-title {
@@ -8752,7 +8752,7 @@ START: Hero CSS
 }
 .banner-content .banner-title span {
   display: inline-block;
-  color: var(--tj-color-theme-primary);
+  color: #fc8100;
   font-weight: var(--tj-fw-medium);
 }
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
@@ -10799,7 +10799,7 @@ START: Services CSS
   transition: all 0.4s ease-in-out;
 }
 .service-item .service-icon i {
-  color: var(--tj-color-theme-primary);
+  color: #fc8100;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -16309,7 +16309,7 @@ START: Breadcrumb CSS
   display: inline-flex;
   line-height: 1;
   font-size: 16px;
-  color: var(--tj-color-theme-primary);
+  color: #fc8100;
 }
 .tj-page-link span:not(:first-child) i {
   font-size: 18px;
