@@ -13,7 +13,7 @@ const Brands1 = ({ type = 1 }) => {
           <div className="col-12">
             <div className="client-content">
               <h5 className="sec-title">
-                Trusted by <span className="client-numbers">100+</span> Leading{" "}
+                Trusted by Leading{" "}
                 <br />
                 <span className="client-text">Partners</span> &{" "}
                 <span className="client-text">Service Providers</span>

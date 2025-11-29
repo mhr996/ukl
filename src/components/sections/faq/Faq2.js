@@ -61,11 +61,6 @@ const Faq2 = ({ type = 1, limit }) => {
       desc: "Yes. We maintain 24/7 availability with services available around the clock, every day of the week. Urgent requests are triaged and routed to the appropriate team with clear escalation paths for immediate action including hospital assistance, police coordination, and emergency transport.",
       initActive: false,
     },
-    {
-      title: "What pricing models are available?",
-      desc: "We offer competitive pricing with fixed scope, unit rates, or blended models depending on the work. We keep pricing transparent and tie it to defined deliverables to reflect true value. Specific pricing is agreed per contract and location with clearly documented SLAs.",
-      initActive: false,
-    },
   ];
 
   const items = limit ? allItems.slice(0, limit) : allItems;
