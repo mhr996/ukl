@@ -113,12 +113,16 @@ const Faq2 = ({ type = 1, limit }) => {
                 </div>
                 <div className="box-area ">
                   <div className="call-box">
-                    <h4 className="title">Get Started Free Call? </h4>
+                    <h4 className="title">
+                      Get Started
+                      <br />
+                      Get us a Call?{" "}
+                    </h4>
                     <span className="call-icon">
                       <i className="tji-phone"></i>
                     </span>
-                    <Link className="number" href="tel:0096566479911">
-                      <span>+965-664-799-11</span>
+                    <Link className="number" href="tel:0096565710408">
+                      <span>+965-657-104-08</span>
                     </Link>
                   </div>
                 </div>

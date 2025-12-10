@@ -15,18 +15,21 @@ const Footer = () => {
                 </div>
                 <div className="footer-text">
                   <p>
-                    From sponsorship and housing to fleet, facilities, and
+                    {/* From sponsorship and housing to fleet, facilities, and
                     emergency response, UKL brings 25+ years of hands-on
                     experience to deliver dependable support across the GCC and
-                    Middle East.
+                    Middle East. */}
+                 
+                    UKL is proudly registered with the System for Award
+                    Management (SAM) as a contractor, authorized to provide
+                    comprehensive life support services to U.S. companies under
+                    contracts with the U.S. Department of Defense. Our official
+                    registration number is UZARMCJTSZW5.
                   </p>
                 </div>
                 <div className="award-logo-area">
                   <div className="award-logo">
-                    <img src="/images/footer/award-logo-1.webp" alt="" />
-                  </div>
-                  <div className="award-logo">
-                    <img src="/images/footer/award-logo-2.webp" alt="" />
+                    <img src="/images/footer/sam-award.png" alt="" />
                   </div>
                 </div>
               </div>

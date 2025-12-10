@@ -46,28 +46,61 @@ const Hero = () => {
               <div className="customers">
                 <ul>
                   <li className="wow fadeInLeft" data-wow-delay=".5s">
-                    <Image
-                      src="/images/testimonial/client-1.webp"
-                      alt=""
-                      width={89}
-                      height={89}
-                    />
+                    <div
+                      style={{
+                        width: "60px",
+                        height: "60px",
+                        borderRadius: "50%",
+                        backgroundColor: "var(--tj-color-theme-primary)",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        border: "2px solid #fff",
+                      }}
+                    >
+                      <i
+                        className="fa-solid fa-shield-check"
+                        style={{ fontSize: "28px", color: "#ffffff" }}
+                      ></i>
+                    </div>
                   </li>
                   <li className="wow fadeInLeft" data-wow-delay=".6s">
-                    <Image
-                      src="/images/testimonial/client-2.webp"
-                      alt=""
-                      width={89}
-                      height={89}
-                    />
+                    <div
+                      style={{
+                        width: "60px",
+                        height: "60px",
+                        borderRadius: "50%",
+                        backgroundColor: "var(--tj-color-theme-primary)",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        border: "2px solid #fff",
+                      }}
+                    >
+                      <i
+                        className="fa-solid fa-handshake"
+                        style={{ fontSize: "28px", color: "#ffffff" }}
+                      ></i>
+                    </div>
                   </li>
                   <li className="wow fadeInLeft" data-wow-delay=".7s">
-                    <Image
-                      src="/images/testimonial/client-3.webp"
-                      alt=""
-                      width={89}
-                      height={89}
-                    />
+                    <div
+                      style={{
+                        width: "60px",
+                        height: "60px",
+                        borderRadius: "50%",
+                        backgroundColor: "var(--tj-color-theme-primary)",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        border: "2px solid #fff",
+                      }}
+                    >
+                      <i
+                        className="fa-solid fa-award"
+                        style={{ fontSize: "28px", color: "#ffffff" }}
+                      ></i>
+                    </div>
                   </li>
                   <li className="wow fadeInLeft" data-wow-delay=".8s">
                     <span>

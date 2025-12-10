@@ -3202,7 +3202,7 @@ START: Theme Footer CSS
   gap: 18px;
 }
 .award-logo-area .award-logo {
-  max-width: 96px;
+  max-width: 150px;
 }
 
 .footer-widget .footer-text {
@@ -13057,7 +13057,7 @@ START: Faq CSS
 .call-box .title {
   color: var(--tj-color-common-white);
   font-weight: var(--tj-fw-sbold);
-  max-width: 145px;
+  max-width: 150px;
   margin-bottom: 29px;
 }
 @media (max-width: 575px) {

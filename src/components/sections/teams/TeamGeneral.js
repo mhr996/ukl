@@ -29,7 +29,7 @@ const TeamGeneral = () => {
               <p className="mb-20">
                 At United Kuwait Land, our team brings together decades of
                 collective experience in business support services across the
-                GCC region. Our professionals are dedicated to understanding
+                GCC & MENA. Our professionals are dedicated to understanding
                 your unique challenges and delivering solutions that exceed
                 expectations.
               </p>
@@ -100,7 +100,7 @@ const TeamGeneral = () => {
               </div>
               <h4 className="feature-title">25+ Years of Experience</h4>
               <p className="feature-desc">
-                Our leadership team has been serving clients across the GCC
+                Our leadership team has been serving clients across the GCC & MENA
                 since 1998, building deep expertise in regional operations and
                 compliance.
               </p>
@@ -142,21 +142,21 @@ const TeamGeneral = () => {
               <div className="row">
                 <div className="col-lg-4 col-md-6 mb-30">
                   <div className="expertise-card">
-                    <div className="expertise-number">150+</div>
+                    <div className="expertise-number">70+</div>
                     <h5>Skilled Professionals</h5>
                     <p>Dedicated team members across all service divisions</p>
                   </div>
                 </div>
                 <div className="col-lg-4 col-md-6 mb-30">
                   <div className="expertise-card">
-                    <div className="expertise-number">7</div>
+                    <div className="expertise-number">10</div>
                     <h5>Countries Covered</h5>
-                    <p>Regional presence throughout the GCC and Middle East</p>
+                    <p>Regional presence throughout the GCC & MENA</p>
                   </div>
                 </div>
                 <div className="col-lg-4 col-md-6 mb-30">
                   <div className="expertise-card">
-                    <div className="expertise-number">500+</div>
+                    <div className="expertise-number">180+</div>
                     <h5>Active Projects</h5>
                     <p>Ongoing support operations managed simultaneously</p>
                   </div>
