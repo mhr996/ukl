@@ -104,7 +104,7 @@ const Faq2 = ({ type = 1, limit }) => {
                   <Image
                     src="/images/faq/faq.webp"
                     alt=""
-                    width={585}
+                    width={585} 
                     height={629}
                   />
                   <h2 className={`title ${type === 4 ? "title-anim" : ""}`}>
