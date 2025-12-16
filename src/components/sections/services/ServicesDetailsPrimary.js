@@ -63,38 +63,7 @@ const ServicesDetailsPrimary = ({ option }) => {
                     ))}
                   </ul>
                 )}
-                <div className="images-wrap">
-                  <div className="row">
-                    <div className="col-sm-6">
-                      <div
-                        className="image-box wow fadeInUp"
-                        data-wow-delay=".3s"
-                      >
-                        <Image
-                          src={img2 || "/images/service/service-3.webp"}
-                          alt="Image"
-                          width={420}
-                          height={420}
-                          style={{ height: "auto" }}
-                        />
-                      </div>
-                    </div>
-                    <div className="col-sm-6">
-                      <div
-                        className="image-box wow fadeInUp"
-                        data-wow-delay=".5s"
-                      >
-                        <Image
-                          src={img3 || "/images/service/service-4.webp"}
-                          alt="Image"
-                          width={420}
-                          height={420}
-                          style={{ height: "auto" }}
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
+             
                 <h3 className="wow fadeInUp" data-wow-delay=".3s">
                   {process?.title || "Our Service Process"}
                 </h3>

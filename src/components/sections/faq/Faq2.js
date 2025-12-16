@@ -116,7 +116,7 @@ const Faq2 = ({ type = 1, limit }) => {
                     <h4 className="title">
                       Get Started
                       <br />
-                      Get us a Call?{" "}
+                      Give us a Call
                     </h4>
                     <span className="call-icon">
                       <i className="tji-phone"></i>

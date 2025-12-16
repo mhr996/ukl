@@ -18,9 +18,9 @@ const Contact2 = () => {
             <div className="global-map wow fadeInUp" data-wow-delay=".3s">
               <div className="global-map-img">
                 <img src="/images/bg/map.svg" alt="Image" />
-                <div className="location-indicator loc-1"></div>
+                {/* <div className="location-indicator loc-1"></div>
                 <div className="location-indicator loc-2"></div>
-                <div className="location-indicator loc-3"></div>
+                <div className="location-indicator loc-3"></div> */}
               </div>
             </div>
           </div>
