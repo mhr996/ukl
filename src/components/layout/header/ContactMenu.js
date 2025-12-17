@@ -60,8 +60,8 @@ const ContactMenu = ({ isContactOpen, setIsContactOpen }) => {
               <div className="contact-info">
                 <div className="contact-item">
                   <span className="subtitle">Phone</span>
-                  <Link className="contact-link" href="tel:0096566479911">
-                    +965 (664) 799 11
+                  <Link className="contact-link" href="tel:0096522477790">
+                    +965 224 777 90
                   </Link>
                 </div>
                 <div className="contact-item">

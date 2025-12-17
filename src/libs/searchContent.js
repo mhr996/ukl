@@ -143,7 +143,7 @@ export const searchablePages = [
       "reach us",
     ],
     content:
-      "Contact United Kuwait Land. Email: info@kuwait-land.com, Phone: +965 (664) 799 11. Reach out for general inquiries, quotes, service information, or partnership opportunities.",
+      "Contact United Kuwait Land. Email: info@kuwait-land.com, Phone: +965 224 777 90. Reach out for general inquiries, quotes, service information, or partnership opportunities.",
   },
   {
     title: "FAQ",

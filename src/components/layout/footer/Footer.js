@@ -19,7 +19,6 @@ const Footer = () => {
                     emergency response, UKL brings 25+ years of hands-on
                     experience to deliver dependable support across the GCC and
                     Middle East. */}
-                 
                     UKL is proudly registered with the System for Award
                     Management (SAM) as a contractor, authorized to provide
                     comprehensive life support services to U.S. companies under
@@ -128,11 +127,11 @@ const Footer = () => {
                 <div className="footer-contact">
                   <ul>
                     <li>
-                      <Link href="tel:0096566479911">
+                      <Link href="tel:0096522477790">
                         <span className="icon">
                           <i className="tji-phone-2"></i>
                         </span>
-                        <span className="text">+965 (664) 799 11</span>
+                        <span className="text">+965 224 777 90</span>
                       </Link>
                     </li>
                     <li>

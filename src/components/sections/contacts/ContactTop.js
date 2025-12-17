@@ -66,11 +66,9 @@ const ContactTop = () => {
               <h3 className="contact-title">Call us</h3>
               <ul className="contact-list">
                 <li>
-                  <Link href="tel:0096566479911">+965 (664) 799 11</Link>
+                  <Link href="tel:0096522477790">+965 224 777 90</Link>
                 </li>
-                <li>
-                  <Link href="tel:10098801810">+1 (009) 880-1810</Link>
-                </li>
+              
               </ul>
             </div>
           </div>

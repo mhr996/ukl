@@ -390,7 +390,7 @@ const TermsAndConditionsPrimary = () => {
                     info@kuwait-land.com
                   </Link>
                   <br />
-                  Phone: <Link href="tel:0096566479911">+965 (664) 799 11</Link>
+                  Phone: <Link href="tel:0096522477790">+965 224 777 90</Link>
                   <br />
                   Website:{" "}
                   <Link href="https://kuwait-land.com">kuwait-land.com</Link>
