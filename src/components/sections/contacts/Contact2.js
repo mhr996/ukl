@@ -22,7 +22,7 @@ const Contact2 = () => {
               <div className="sec-heading">
                 <span className="sub-title text-white">
                   <i className="tji-box"></i>Get in Touch
-                </span>
+                </span> 
                 <h2 className="sec-title title-anim">
                   Drop Us a <span>Line.</span>
                 </h2>

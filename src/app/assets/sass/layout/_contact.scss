@@ -385,48 +385,48 @@ START: Contact CSS
 }
 .location {
   &-indicator {
-    width: 19px;
-    height: 19px;
+    width: 10px;
+    height: 10px;
     background-color: var(--tj-color-common-white);
     border-radius: 50%;
     position: absolute;
     cursor: pointer;
     z-index: 1;
     @media #{$lg, $md, $sm, $xs} {
-      width: 12px;
-      height: 12px;
+      width: 10px;
+      height: 10px;
     }
     &.loc-1 {
-      top: 42%;
-      inset-inline-start: 55%;
+      top: 52%;
+      inset-inline-start: 59.7%;
     }
     &.loc-2 {
-      top: 46%;
-      inset-inline-start: 53%;
+      top: 54%;
+      inset-inline-start: 58.5%;
     }
     &.loc-3 {
-      top: 46%;
-      inset-inline-start: 56.5%;
+      top: 54%;
+      inset-inline-start: 61%;
     }
     &.loc-4 {
-      top: 47%;
-      inset-inline-start: 56%;
+      top: 53%;
+      inset-inline-start: 60.5%;
     }
     &.loc-5 {
-      top: 50%;
-      inset-inline-start: 58%;
+      top: 57%;
+      inset-inline-start: 61%;
     }
     &.loc-6 {
-      top: 48%;
-      inset-inline-start: 57%;
+      top: 55.5%;
+      inset-inline-start: 61.5%;
     }
     &.loc-7 {
-      top: 40%;
-      inset-inline-start: 54%;
+      top: 50%;
+      inset-inline-start: 56.5%;
     }
     &.loc-8 {
-      top: 45%;
-      inset-inline-start: 61%;
+      top: 54%;
+      inset-inline-start: 66%;
     }
     &::after {
       content: "";
@@ -444,18 +444,18 @@ START: Contact CSS
       .location-tooltip {
         opacity: 1;
         visibility: visible;
-        margin-bottom: 42px;
+        margin-bottom: 18px;
       }
     }
   }
 
   &-tooltip {
-    width: 222px;
-    background-color: var(--tj-color-theme-primary);
+	border-radius: 8px;
+    background-color: #1a81b9;
     font-size: 14px;
-    padding: 15px;
+    padding: 8px;
     position: absolute;
-    margin-bottom: 35px;
+    margin-bottom: 18px;
     inset-inline-start: 50%;
     bottom: 0;
     transform: translateX(-50%);
@@ -463,16 +463,16 @@ START: Contact CSS
     opacity: 0;
     visibility: hidden;
     transition: all 0.3s ease-in-out;
-    z-index: 10;
+    z-index: 999;
     &::after {
       content: "";
-      background: var(--tj-color-theme-primary);
-      width: 14px;
-      height: 14px;
+      background: #1a81b9;
+      width: 8px;
+      height: 8px;
       z-index: -1;
       position: absolute;
       inset-inline-start: 50%;
-      bottom: -7px;
+      bottom: -4px;
       transform: translateX(-50%) rotate(45deg);
     }
     span {

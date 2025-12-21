@@ -14810,8 +14810,8 @@ START: Contact CSS
 }
 
 .location-indicator {
-  width: 19px;
-  height: 19px;
+  width: 10px;
+  height: 10px;
   background-color: var(--tj-color-common-white);
   border-radius: 50%;
   position: absolute;
@@ -14823,41 +14823,41 @@ START: Contact CSS
   only screen and (min-width: 576px) and (max-width: 767px),
   (max-width: 575px) {
   .location-indicator {
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
   }
 }
 .location-indicator.loc-1 {
-  top: 42%;
-  inset-inline-start: 55%;
+  top: 52%;
+  inset-inline-start: 59.7%;
 }
 .location-indicator.loc-2 {
-  top: 46%;
-  inset-inline-start: 53%;
+  top: 54%;
+  inset-inline-start: 58.5%;
 }
 .location-indicator.loc-3 {
-  top: 46%;
-  inset-inline-start: 56.5%;
+  top: 54%;
+  inset-inline-start: 61%;
 }
 .location-indicator.loc-4 {
-  top: 47%;
-  inset-inline-start: 56%;
+   top: 53%;
+      inset-inline-start: 60.5%;
 }
 .location-indicator.loc-5 {
-  top: 50%;
-  inset-inline-start: 58%;
+  top: 57%;
+  inset-inline-start: 61%;
 }
 .location-indicator.loc-6 {
-  top: 48%;
-  inset-inline-start: 57%;
+  top: 55.5%;
+  inset-inline-start: 61.5%;
 }
 .location-indicator.loc-7 {
-  top: 40%;
-  inset-inline-start: 54%;
+  top: 50%;
+      inset-inline-start: 56.5%;
 }
 .location-indicator.loc-8 {
-  top: 45%;
-  inset-inline-start: 61%;
+  top: 54%;
+  inset-inline-start: 66%;
 }
 .location-indicator::after {
   content: "";
@@ -14875,15 +14875,15 @@ START: Contact CSS
 .location-indicator:hover .location-tooltip {
   opacity: 1;
   visibility: visible;
-  margin-bottom: 42px;
+  margin-bottom: 18px;
 }
 .location-tooltip {
-  width: 222px;
-  background-color: var(--tj-color-theme-primary);
+  border-radius: 8px;
+  background-color: #1a81b9;
   font-size: 14px;
-  padding: 15px;
+  padding: 8px;
   position: absolute;
-  margin-bottom: 35px;
+  margin-bottom: 18px;
   inset-inline-start: 50%;
   bottom: 0;
   -webkit-transform: translateX(-50%);
@@ -14894,17 +14894,17 @@ START: Contact CSS
   visibility: hidden;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  z-index: 10;
+  z-index: 999;
 }
 .location-tooltip::after {
   content: "";
-  background: var(--tj-color-theme-primary);
-  width: 14px;
-  height: 14px;
+  background: #1a81b9;
+  width: 8px;
+  height: 8px;
   z-index: -1;
   position: absolute;
   inset-inline-start: 50%;
-  bottom: -7px;
+  bottom: -4px;
   -webkit-transform: translateX(-50%) rotate(45deg);
   -ms-transform: translateX(-50%) rotate(45deg);
   transform: translateX(-50%) rotate(45deg);
