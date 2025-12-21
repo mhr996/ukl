@@ -15,16 +15,6 @@ const Contact2 = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-6">
-            <div className="global-map wow fadeInUp" data-wow-delay=".3s">
-              <div className="global-map-img">
-                <img src="/images/bg/map.svg" alt="Image" />
-                {/* <div className="location-indicator loc-1"></div>
-                <div className="location-indicator loc-2"></div>
-                <div className="location-indicator loc-3"></div> */}
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-6">
             <div
               className="contact-form style-2 wow fadeInUp"
               data-wow-delay=".4s"
@@ -122,6 +112,53 @@ const Contact2 = () => {
                   </div>
                 </div>
               </form>
+            </div>
+          </div>
+          <div className="col-lg-6">
+            <div className="global-map wow fadeInUp" data-wow-delay=".3s">
+              <div className="global-map-img">
+                <img src="/images/bg/map.svg" alt="Image" />
+                <div className="location-indicator loc-1">
+                  <div className="location-tooltip">
+                    <span>Kuwait</span>
+                  </div>
+                </div>
+                <div className="location-indicator loc-2">
+                  <div className="location-tooltip">
+                    <span>KSA</span>
+                  </div>
+                </div>
+                <div className="location-indicator loc-3">
+                  <div className="location-tooltip">
+                    <span>Qatar</span>
+                  </div>
+                </div>
+                <div className="location-indicator loc-4">
+                  <div className="location-tooltip">
+                    <span>Bahrain</span>
+                  </div>
+                </div>
+                <div className="location-indicator loc-5">
+                  <div className="location-tooltip">
+                    <span>Oman</span>
+                  </div>
+                </div>
+                <div className="location-indicator loc-6">
+                  <div className="location-tooltip">
+                    <span>Abu Dhabi</span>
+                  </div>
+                </div>
+                <div className="location-indicator loc-7">
+                  <div className="location-tooltip">
+                    <span>Jordan</span>
+                  </div>
+                </div>
+                <div className="location-indicator loc-8">
+                  <div className="location-tooltip">
+                    <span>Pakistan</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

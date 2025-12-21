@@ -10,7 +10,7 @@ const Features = ({ type }) => {
     },
     {
       title: "Regional Reach",
-      desc: "Established operations across the GCC with mobilization capability. Operating in Kuwait, Qatar, Saudi Arabia, UAE, Bahrain, Egypt, and Jordan.",
+      desc: "Established operations across the GCC  and MENA with mobilization capability. Operating in Kuwait, Qatar, KSA, UAE, Bahrain, Oman, Pakistan, Jordan and Egypt",
       icon: "tji-award",
     },
     {

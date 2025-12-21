@@ -14,7 +14,7 @@ export const searchablePages = [
       "emergency support",
     ],
     content:
-      "United Kuwait Land provides comprehensive business support services across the GCC region including sponsorship and government relations, housing solutions, fleet management, vehicle services, emergency support, and catering services.",
+      "United Kuwait Land provides comprehensive business support services across the GCC and MENA including sponsorship and government relations, housing solutions, fleet management, vehicle services, emergency support, and catering services.",
   },
   {
     title: "About Us",

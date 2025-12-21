@@ -58,10 +58,10 @@ const About3 = ({ type }) => {
                   {type === 2 ? (
                     <>
                       Delivering Reliable Life Support and Logistics Across the
-                      GCC and Middle <span>East.</span>
+                      GCC and MENA
                     </>
                   ) : (
-                    "Delivering Reliable Life Support and Logistics Across the GCC and Middle East."
+                    "Delivering Reliable Life Support and Logistics Across the GCC and MENA."
                   )}
                 </h2>
               </div>

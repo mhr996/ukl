@@ -5,12 +5,12 @@ const Faq3 = () => {
   const items = [
     {
       title: "What services does UKL offer to clients?",
-      desc: "UKL provides integrated life support and logistics services across the GCC including sponsorship and government relations, housing and accommodation, vehicles and fleet management, transportation, 24/7 emergency response, catering, event planning, and general contracting services.",
+      desc: "UKL provides integrated life support and logistics services across the GCC and MENAincluding sponsorship and government relations, housing and accommodation, vehicles and fleet management, transportation, 24/7 emergency response, catering, event planning, and general contracting services.",
       initActive: true,
     },
     {
       title: "What industries does UKL serve?",
-      desc: "We serve defense and government contracting, telecommunications and network infrastructure, energy (oil, gas, and power), and information technology sectors across Kuwait, Qatar, Saudi Arabia, UAE, Bahrain, Egypt, and Jordan.",
+      desc: "We serve defense and government contracting, telecommunications and network infrastructure, energy (oil, gas, and power), and information technology sectors across Kuwait, Qatar, KSA, UAE, Bahrain, Oman, Pakistan, Jordan and Egypt",
       initActive: false,
     },
     {
@@ -25,7 +25,7 @@ const Faq3 = () => {
     },
     {
       title: "What areas does UKL operate in?",
-      desc: "Kuwait and the GCC—Qatar, Saudi Arabia, the UAE, and Bahrain—with support for programs extending into Egypt and Jordan via partners. We can mobilize rapidly and scale teams to meet mission timelines across the region.",
+      desc: "Kuwait and the GCC—Qatar, KSA, the UAE, and Bahrain—with support for programs extending into Egypt and Jordan via partners. We can mobilize rapidly and scale teams to meet mission timelines across the region.",
       initActive: false,
     },
   ];

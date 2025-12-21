@@ -7,7 +7,7 @@ const Funfact1 = () => {
           <div className="col-12">
             <div className="countup-wrap">
               <div className="countup-item">
-                <FunfactSingle currentValue={200} symbol={"+"} />
+                <FunfactSingle currentValue={250} symbol={"+"} />
 
                 <span className="count-text">Projects Completed</span>
                 <span
@@ -28,7 +28,7 @@ const Funfact1 = () => {
                 ></span>
               </div>
               <div className="countup-item">
-                <FunfactSingle currentValue={8} symbol={"+"} />
+                <FunfactSingle currentValue={15} symbol={"+"} />
                 <span className="count-text">Countries Across the Region</span>
                 <span
                   className="count-separator"

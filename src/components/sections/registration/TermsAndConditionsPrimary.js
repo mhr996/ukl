@@ -25,7 +25,7 @@ const TermsAndConditionsPrimary = () => {
                   business support services including sponsorship, government
                   relations, housing, fleet management, transportation,
                   emergency support, catering, events management, and
-                  contracting services across the GCC and Middle East region.
+                  contracting services across the GCC and MENA.
                 </div>
               </div>
 
@@ -95,7 +95,7 @@ const TermsAndConditionsPrimary = () => {
                 <p>
                   <strong>"UKL", "We", "Us", "Our"</strong> refers to{" "}
                   <em>United Kuwait Land</em>, a business support services
-                  provider operating in Kuwait and the broader GCC region.
+                  provider operating in Kuwait and the broader GCC and MENA.
                 </p>
                 <p>
                   <strong>"Client", "You", "Your"</strong> refers to any
@@ -121,7 +121,7 @@ const TermsAndConditionsPrimary = () => {
                 <p>
                   UKL provides a comprehensive range of business support
                   services designed to help organizations operate efficiently
-                  across the GCC and Middle East:
+                  across the GCC and MENA:
                 </p>
                 <ul>
                   <li>

@@ -14715,15 +14715,15 @@ START: Contact CSS
 .global-map {
   width: 1167px;
   height: 100%;
-  position: relative;
   z-index: 1;
-  inset-inline-start: -115px;
+  inset-inline-end: -15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  margin-left: -450px;
 }
 .global-map::before {
   content: "";
@@ -14781,7 +14781,8 @@ START: Contact CSS
   only screen and (min-width: 768px) and (max-width: 991px),
   only screen and (min-width: 576px) and (max-width: 767px) {
   .global-map {
-    inset-inline-start: 0;
+    inset-inline-end: 0;
+    position: relative;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -14803,7 +14804,8 @@ START: Contact CSS
 @media (max-width: 575px) {
   .global-map {
     width: 580px;
-    inset-inline-start: -20px;
+    inset-inline-end: -20px;
+    position: relative;
   }
 }
 
@@ -14826,16 +14828,36 @@ START: Contact CSS
   }
 }
 .location-indicator.loc-1 {
-  top: 38%;
-  inset-inline-start: 21%;
+  top: 42%;
+  inset-inline-start: 55%;
 }
 .location-indicator.loc-2 {
-  top: 36%;
-  inset-inline-start: 46%;
+  top: 46%;
+  inset-inline-start: 53%;
 }
 .location-indicator.loc-3 {
-  top: 73%;
-  inset-inline-start: 30%;
+  top: 46%;
+  inset-inline-start: 56.5%;
+}
+.location-indicator.loc-4 {
+  top: 47%;
+  inset-inline-start: 56%;
+}
+.location-indicator.loc-5 {
+  top: 50%;
+  inset-inline-start: 58%;
+}
+.location-indicator.loc-6 {
+  top: 48%;
+  inset-inline-start: 57%;
+}
+.location-indicator.loc-7 {
+  top: 40%;
+  inset-inline-start: 54%;
+}
+.location-indicator.loc-8 {
+  top: 45%;
+  inset-inline-start: 61%;
 }
 .location-indicator::after {
   content: "";
@@ -14872,6 +14894,7 @@ START: Contact CSS
   visibility: hidden;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  z-index: 10;
 }
 .location-tooltip::after {
   content: "";

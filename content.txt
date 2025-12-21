@@ -19,7 +19,7 @@ SAM Registration:
 Operating Countries:
 - Kuwait
 - Qatar
-- Saudi Arabia
+- KSA
 - United Arab Emirates
 - Bahrain
 - Egypt
@@ -39,7 +39,7 @@ Mission Statement:
 We keep complex programs moving. From sponsorship and housing to fleet, facilities, and emergency response, UKL brings 25+ years of hands‑on experience to deliver dependable support for defense, telecom, energy, and technology clients.
 
 Short Introduction:
-Founded in 1998 and headquartered in Kuwait, United Kuwait Land Co. (UKL) is a leading Kuwaiti multinational company delivering exceptional logistics and life-support services across the GCC countries and Middle East regions. Our regional teams operate across Kuwait, Qatar, Saudi Arabia, the United Arab Emirates, Bahrain, Egypt, and Jordan, enabling clients to mobilize quickly, remain compliant, and operate smoothly in demanding environments.
+Founded in 1998 and headquartered in Kuwait, United Kuwait Land Co. (UKL) is a leading Kuwaiti multinational company delivering exceptional logistics and life-support services across the GCC countries and Middle East regions. Our regional teams operate across Kuwait, Qatar, KSA, the United Arab Emirates, Bahrain, Egypt, and Jordan, enabling clients to mobilize quickly, remain compliant, and operate smoothly in demanding environments.
 
 Why Choose UKL:
 1. End‑to‑end coverage: One accountable partner reduces handoffs, delays, and risk.
@@ -52,7 +52,7 @@ Quick Stats:
 - 25+ years of experience in life support and logistics
 - 24/7 operations and emergency response, every day of the week
 - Leading Kuwaiti multinational company established in 1998
-- GCC and Middle East presence: Kuwait, Qatar, Saudi Arabia, UAE, Bahrain, Egypt, Jordan
+- GCC and Middle East presence: Kuwait, Qatar, KSA, UAE, Bahrain, Egypt, Jordan
 - SAM-registered contractor supporting U.S. DoD-related work (Reg. No. UZARMCJTSZW5)
 
 Service Categories:
@@ -84,7 +84,7 @@ ABOUT UKL
 ================================================================================
 
 Introduction:
-United Kuwait Land Co. (UKL) is a leading Kuwaiti multinational company built for reliability. We combine disciplined planning, trained people, and a GCC and Middle East–wide footprint to deliver the daily essentials operations depend on—residency and permits, accommodation, vehicles, transport, facilities, and rapid emergency support. With 25+ years of experience providing top-notch life support services 24/7, we serve clients across Kuwait, Qatar, Saudi Arabia, UAE, Bahrain, Egypt, and Jordan.
+United Kuwait Land Co. (UKL) is a leading Kuwaiti multinational company built for reliability. We combine disciplined planning, trained people, and a GCC and Middle East–wide footprint to deliver the daily essentials operations depend on—residency and permits, accommodation, vehicles, transport, facilities, and rapid emergency support. With 25+ years of experience providing top-notch life support services 24/7, we serve clients across Kuwait, Qatar, KSA, UAE, Bahrain, Egypt, and Jordan.
 
 Vision:
 We are dedicated to sustainable growth. We aim to be the most trusted, reputable, and transparent life‑support and logistics company in our industry—recognized across the region for operational rigor, innovative practices, and efficient delivery.
@@ -136,7 +136,7 @@ Compliance and Registrations:
 UKL is registered in the U.S. System for Award Management (SAM) to support U.S. companies under U.S. Department of Defense contracts (Registration No. UZARMCJTSZW5). We operate in line with local laws and regulatory requirements across Kuwait and the GCC. Client data is handled with care and confidentiality.
 
 Global Presence:
-We operate across Kuwait and the GCC—Qatar, Saudi Arabia, the United Arab Emirates, and Bahrain—with the ability to mobilize rapidly and scale teams to meet mission timelines. Our network of vetted suppliers and partners expands our reach while maintaining UKL standards.
+We operate across Kuwait and the GCC—Qatar, KSA, the United Arab Emirates, and Bahrain—with the ability to mobilize rapidly and scale teams to meet mission timelines. Our network of vetted suppliers and partners expands our reach while maintaining UKL standards.
 
 Metrics We Track:
 - Mobilization lead times and on-time percentages
@@ -294,7 +294,7 @@ Ways to Engage:
 ================================================================================
 
 GCC and MENA Operations:
-United Kuwait Land Co. (UKL) operates across Kuwait and the GCC with established subsidiaries in Qatar, Saudi Arabia, the United Arab Emirates, and Bahrain, and expanded operations in Egypt and Jordan. We support regional expansions, cross‑border programs, and project startups with the ability to mobilize quickly, scale resources, and maintain compliance.
+United Kuwait Land Co. (UKL) operates across Kuwait and the GCC with established subsidiaries in Qatar, KSA, the United Arab Emirates, and Bahrain, and expanded operations in Egypt and Jordan. We support regional expansions, cross‑border programs, and project startups with the ability to mobilize quickly, scale resources, and maintain compliance.
 
 Mobilization Playbook:
 
@@ -361,7 +361,7 @@ Q3: What makes UKL different from competitors?
 A: End‑to‑end coverage with one accountable partner; 25+ years of regional experience; rapid mobilization; transparent pricing; and a culture of reliability backed by recognized registrations and standards.
 
 Q4: What areas does UKL operate in?
-A: Kuwait and the GCC—Qatar, Saudi Arabia, the UAE, and Bahrain—with support for programs extending into the wider Middle East via partners.
+A: Kuwait and the GCC—Qatar, KSA, the UAE, and Bahrain—with support for programs extending into the wider Middle East via partners.
 
 Q5: How can clients partner with UKL?
 A: Engage via MSA or project‑based scope. Share timelines and requirements; we'll propose a plan with milestones, SLAs, and pricing.

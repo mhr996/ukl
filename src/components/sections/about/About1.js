@@ -80,7 +80,7 @@ const About1 = () => {
                   </span>
                 </div>
               </div>
-              <div className="video-img  wow fadeInUp" data-wow-delay=".9s">
+              {/* <div className="video-img  wow fadeInUp" data-wow-delay=".9s">
                 <Image
                   src="/images/about/about-2.webp"
                   alt=""
@@ -97,7 +97,7 @@ const About1 = () => {
                     </span>
                   </Link>
                 </PopupVideo>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

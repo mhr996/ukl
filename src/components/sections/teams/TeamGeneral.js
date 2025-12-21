@@ -29,7 +29,7 @@ const TeamGeneral = () => {
               <p className="mb-20">
                 At United Kuwait Land, our team brings together decades of
                 collective experience in business support services across the
-                GCC & MENA. Our professionals are dedicated to understanding
+                GCC and MENA. Our professionals are dedicated to understanding
                 your unique challenges and delivering solutions that exceed
                 expectations.
               </p>
@@ -100,7 +100,7 @@ const TeamGeneral = () => {
               </div>
               <h4 className="feature-title">25+ Years of Experience</h4>
               <p className="feature-desc">
-                Our leadership team has been serving clients across the GCC & MENA
+                Our leadership team has been serving clients across the GCC and MENA
                 since 1998, building deep expertise in regional operations and
                 compliance.
               </p>
@@ -151,7 +151,7 @@ const TeamGeneral = () => {
                   <div className="expertise-card">
                     <div className="expertise-number">10</div>
                     <h5>Countries Covered</h5>
-                    <p>Regional presence throughout the GCC & MENA</p>
+                    <p>Regional presence throughout the GCC and MENA</p>
                   </div>
                 </div>
                 <div className="col-lg-4 col-md-6 mb-30">
