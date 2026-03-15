@@ -27,8 +27,22 @@ const Footer = () => {
                   </p>
                 </div>
                 <div className="award-logo-area">
-                  <div className="award-logo">
-                    <img src="/images/footer/sam-award.png" alt="" />
+                  <div className="award-logo-item">
+                    <div className="award-logo">
+                      <img src="/images/footer/sam-award.png" alt="SAM Award" />
+                    </div>
+                  </div>
+                  <div className="award-logo-item">
+                    <div className="award-logo">
+                      <img
+                        src="/images/footer/dun-bradstreet-logo.webp"
+                        alt="Dun &amp; Bradstreet"
+                      />
+                    </div>
+                    <p className="award-logo-text">
+                      UKL is registered with Dun &amp; Bradstreet under D-U-N-S®
+                      Number: 557900303
+                    </p>
                   </div>
                 </div>
               </div>
@@ -83,9 +97,6 @@ const Footer = () => {
                   <li>
                     <Link href="/services">Services</Link>
                   </li>
-                  <li>
-                    <Link href="/terms-and-conditions">Terms & Conditions</Link>
-                  </li>
                 </ul>
               </div>
             </div>
@@ -105,13 +116,13 @@ const Footer = () => {
                     <button type="submit">
                       <i className="tji-plane"></i>
                     </button>
-                    <label htmlFor="agree">
+                    {/* <label htmlFor="agree">
                       <input id="agree" type="checkbox" />
                       Agree to our{" "}
                       <Link href="/terms-and-conditions">
                         Terms & Condition?
                       </Link>
-                    </label>
+                    </label> */}
                   </form>
                 </div>
               </div>

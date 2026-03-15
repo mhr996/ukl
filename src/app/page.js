@@ -9,6 +9,7 @@ import Faq2 from "@/components/sections/faq/Faq2";
 import Features from "@/components/sections/features/Features";
 import Funfact1 from "@/components/sections/funfacts/Funfact1";
 import Hero from "@/components/sections/hero/Hero";
+import Partners from "@/components/sections/partners/Partners";
 import Portfolios1 from "@/components/sections/portfolios/Portfolios1";
 import Services1 from "@/components/sections/services/Services1";
 import Testimonials1 from "@/components/sections/testimonials/Testimonials1";
@@ -35,6 +36,7 @@ export default function Home() {
             <Funfact1 />
             <Testimonials1 />
             <Faq2 type={1} limit={5} />
+            <Partners />
             <Contact2 />
             <Cta />
           </main>

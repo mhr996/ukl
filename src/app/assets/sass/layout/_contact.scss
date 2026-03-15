@@ -378,9 +378,15 @@ START: Contact CSS
     width: 100%;
   }
   @media #{$xs} {
-    width: 580px;
-    inset-inline-end: -20px;
+    width: 100%;
+    max-width: 100%;
+    inset-inline-end: auto;
     position: relative;
+    margin-left: 0;
+    margin-right: 0;
+    left: 50%;
+    top: 20px;
+    transform: translateX(-50%);
   }
 }
 .location {
@@ -450,7 +456,7 @@ START: Contact CSS
   }
 
   &-tooltip {
-	border-radius: 8px;
+    border-radius: 8px;
     background-color: #1a81b9;
     font-size: 14px;
     padding: 8px;
