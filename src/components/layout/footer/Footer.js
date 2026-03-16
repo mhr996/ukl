@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Script from "next/script";
 
 const Footer = () => {
   return (
@@ -204,6 +205,7 @@ const Footer = () => {
       <div className="bg-shape-2">
         <img src="/images/shape/pattern-3.svg" alt="" />
       </div>
+      <Script src="https://dunsregistered.dnb.com" strategy="lazyOnload" />
     </footer>
   );
 };
